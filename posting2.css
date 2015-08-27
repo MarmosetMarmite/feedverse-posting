@@ -1,0 +1,199 @@
+/*POSTING BODY POSITIONING*/
+
+.post{
+	position:relative;
+}
+
+.editable{
+	position:absolute;
+	top: 100px;
+	left: 40px;
+}
+
+.others-posts{
+	position:relative;
+	top:325px;
+	left:60px;
+}
+
+.type-select{
+	position:relative;
+}
+.image-post{
+	position:absolute;
+	top:60px;
+	left:150px;
+}
+.image-picture{
+	position:absolute;
+	top:60px;
+	left:240px;
+}
+
+.status-select{
+	position:relative;
+	left:40px;
+}
+
+.status-account{
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+
+.ad{
+	position:absolute;
+	top:20px;
+}
+
+.text-input{
+	position:absolute;
+	left:20px;
+}
+
+/*CHAT BODY*/
+.chat li{
+	list-style-type:none;
+	list-style:none;
+}
+.more-things li{
+	list-style-type:none;
+	list-style:none;
+}
+
+
+/*COLORING STUF*/
+/*FONT STUF*/
+/*GENERAL DECOR*/
+body{
+	background-color:#C9Eb95;
+	font-family: sans-serif;
+}
+
+a{
+	color:#000000;
+	text-decoration:none;
+}
+textarea{
+	resize:none;
+	height:50px;
+	width:500px;
+	
+}
+
+.others-posts textarea{
+	resize:none;
+	height:50px;
+	width:500px;
+	
+}
+}
+.text-input{
+	background-color:transparent;
+	outline:0px none transparent;
+	border:none;
+}
+
+.editable{
+	background-color:#ffffff;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-bottom:90px;
+	padding-right:60px;
+	margin: 20px;
+}
+
+.others-posts{
+	background-color:#ffffff;
+	padding:20px;
+	padding-bottom: 40px;
+}
+
+.myButton {
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352));
+	background:-moz-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-webkit-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-o-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-ms-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
+	background-color:#77b55a;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+	top:135px;
+	left:460px;
+	position:absolute;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #77b55a));
+	background:-moz-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-webkit-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-o-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-ms-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a',GradientType=0);
+	background-color:#72b352;
+
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352));
+	background:-moz-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-webkit-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-o-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-ms-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
+	background-color:#77b55a;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+	top:130px;
+	left:460px;
+	position:absolute;
+}
+.myButton2:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #77b55a));
+	background:-moz-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-webkit-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-o-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-ms-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a',GradientType=0);
+	background-color:#72b352;
+
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+/* thigs can go here for other chat images, i should test out with multiple groups instead of just one friend and one family
+/*things learned: floats do not work good with bootstrap, use regular positioning?*/
